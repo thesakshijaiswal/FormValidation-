@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>    
+    <div class="container">
+    </div>   
+    <div class="info">
+    <div class="wrapper">
+        <div class="login-box main">
+            <div class="row">
+                <div class="side-image">                    
+                    <div class="text">
+                        <h3>Sample Heading</h3>
+                        <ol>
+                            <li>the first line</li>
+                            <li>the second line</li>
+                            <li>the third line</li>
+                        </ol>                                                                  
+                    </div>                    
+                </div>
+                <div class="right">
+                   <form id="form" action="/">
+          <h4>Create an account</h4>
+
+<!-- email -->
+          
+          <div class="input-control">
+              <label for="email">Enter your email</label>
+              <input id="email" name="email" type="text">
+              <div class="error"></div>
+          </div>
+
+<!-- DOB selector -->          
+          <div class="input-control">
+              <label for="email">Date of Birth <span>(optional)</span></label> 
+              
+              <div class="pick-date">
+                  <span>
+                      <label for="date">Date</label>
+                      <input type="number">
+                  </span>
+                  
+                  <span>
+                      <label for="month">Month</label>
+                      <select name="month" id="month"></select>
+                  </span>
+                  
+                  <span>
+                      <label for="year">Year</label>
+                      <select name="year" id="year"></select>
+                  </span>
+              </div>            
+              <div class="error"></div>
+          </div>
+          
+<!-- password -->   
+       
+          <div class="input-control">
+              <label for="password">Choose a strong password</label>
+              <input id="password" name="password" type="password">
+              <div class="error"></div>
+          </div>
+          
+<!-- select button--> 
+         
+           <div class="input-control">
+              <label for="email">Are you an agency or individual?</label>
+              <div class="selector">
+              <input id="email" name="individual" type="radio">
+            <label>Individual</label>  
+               <input id="email" name="individual" type="radio">
+            <label>Agency</label>   
+               </div>
+              <div class="error"></div>
+          </div>  
+
+<!-- submit button -->          
+          <button class="submit" type="submit">Submit</button>         
+                       
+                   </form>
+                </div>
+            </div>
+        </div>      
+    </div>
+    </div>   
+</body>
+</html>
